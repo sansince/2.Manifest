@@ -40,7 +40,4 @@
 <!-- External repos -->
 <project path="external/libevdev" name="LineageOS/android_external_libevdev" remote="gh" revision="lineage-21.0" />
  
-<!--Vendor -->
-<!--project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="gh" revision="lineage-18.1" /> 
- 
 </manifest>
