@@ -1,43 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <!-- Remotes -->
-    <remote name="gh"
-            fetch="https://github.com"
-            clone-depth="1" />
- 
-<!--Tree -->
-<project path="device/nintendo/nx" name="LineageOS/android_device_nintendo_nx" remote="gh" revision="lineage-21" />
-<project path="device/nvidia/sepolicy" name="LineageOS/android_device_nvidia_sepolicy" remote="gh" revision="lineage-21" />
-<project path="device/nvidia/tegra-common" name="LineageOS/android_device_nvidia_tegra-common" remote="gh" revision="lineage-21" />
-<project path="device/nvidia/t210-common" name="LineageOS/android_device_nvidia_t210-common" remote="gh" revision="lineage-21" />
-
-<!--Kernel -->
-<project path="kernel/nvidia/kernel-4.9-nx" name="LineageOS/android_kernel_nvidia_kernel-nx" remote="gh" revision="lineage-21" />
-<project path="kernel/nvidia/nvidia-nx" name="LineageOS/android_kernel_nvidia_nvidia-nx" remote="gh" revision="lineage-21" />
-<project path="kernel/nvidia/nvgpu" name="LineageOS/android_kernel_nvidia_nvgpu" remote="gh" revision="lineage-21" />
-<project path="kernel/nvidia/wireguard" name="LineageOS/android_kernel_nvidia_wireguard" remote="gh" revision="lineage-21" />
-<project path="kernel/nvidia/cypress-fmac-upstream" name="LineageOS/android_kernel_nvidia_cypress-fmac-upstream" remote="gh" revision="lineage-21" />
-<project path="kernel/nvidia/exfat" name="LineageOS/android_kernel_nvidia_exfat" remote="gh" revision="lineage-21" /> 
-
-<!-- Hardware repos -->
-<project path="hardware/nvidia/power" name="LineageOS/android_hardware_nvidia_power" remote="gh" revision="lineage-21.0" />
-<project path="hardware/nvidia/thermal" name="LineageOS/android_hardware_nvidia_thermal" remote="gh" revision="lineage-21.0" />
-<project path="hardware/nvidia/interfaces" name="LineageOS/android_hardware_nvidia_interfaces" remote="gh" revision="lineage-21.0" />
-<project path="hardware/nvidia/light" name="LineageOS/android_hardware_nvidia_light" remote="gh" revision="lineage-21.0" /> 
-<project path="hardware/intel/sensors-iio" name="LineageOS/android_hardware_intel_sensors-iio" remote="gh" revision="lineage-21" /> 
-<project path="hardware/nvidia/platform/t210/nx" name="LineageOS/android_hardware_nvidia_platform_t210_nx" remote="gh" revision="lineage-21" />
-<project path="hardware/nvidia/soc/tegra" name="LineageOS/android_hardware_nvidia_soc_tegra" remote="gh" revision="lineage-21" />
-<project path="hardware/nvidia/platform/tegra/common" name="LineageOS/android_hardware_nvidia_platform_tegra_common" remote="gh" revision="lineage-21" />
-<project path="hardware/nvidia/platform/t210/common" name="LineageOS/android_hardware_nvidia_platform_t210_common" remote="gh" revision="lineage-21" />
-<project path="hardware/nvidia/soc/t210" name="LineageOS/android_hardware_nvidia_soc_t210" remote="gh" revision="lineage-21" />
-<project path="hardware/nintendo/arm-trusted-firmware" name="LineageOS/android_hardware_nintendo_arm-trusted-firmware" remote="gh" revision="lineage-21" />
-<project path="hardware/nintendo/joycond" name="LineageOS/android_hardware_nintendo_joycond" remote="gh" revision="lineage-21" />
-<project path="hardware/nintendo/u-boot" name="LineageOS/android_hardware_nintendo_u-boot" remote="gh" revision="lineage-21" /> 
- 
-<!-- Prebuilt repos -->
-<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-9.3" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-9.3" remote="gh" revision="lineage-21" />
-
-<!-- External repos -->
-<project path="external/libevdev" name="LineageOS/android_external_libevdev" remote="gh" revision="lineage-21.0" />
- 
+  <project path="device/nintendo/nx_tab" remote="github" name="LineageOS/android_device_nintendo_nx_tab" revision="lineage-21" />
+  <project path="device/nintendo/nx" remote="github" name="LineageOS/android_device_nintendo_nx" revision="lineage-21" />
+  <project path="device/nvidia/t210-common" remote="github" name="LineageOS/android_device_nvidia_t210-common" revision="lineage-21" />
+  <project path="device/nvidia/tegra-common" remote="github" name="LineageOS/android_device_nvidia_tegra-common" revision="lineage-21" />
+  <project path="device/nvidia/sepolicy" remote="github" name="LineageOS/android_device_nvidia_sepolicy" revision="lineage-21" />
+  <project path="external/libevdev" remote="github" name="LineageOS/android_external_libevdev" revision="lineage-21.0" />
+  <project path="hardware/nintendo/arm-trusted-firmware" remote="github" name="LineageOS/android_hardware_nintendo_arm-trusted-firmware" revision="lineage-21" />
+  <project path="hardware/nintendo/joycond" remote="github" name="LineageOS/android_hardware_nintendo_joycond" revision="lineage-21" />
+  <project path="hardware/nintendo/u-boot" remote="github" name="LineageOS/android_hardware_nintendo_u-boot" revision="lineage-21" />
+  <project path="hardware/intel/sensors-iio" remote="github" name="LineageOS/android_hardware_intel_sensors-iio" revision="lineage-21" />
+  <project path="hardware/nvidia/interfaces" remote="github" name="LineageOS/android_hardware_nvidia_interfaces" revision="lineage-21.0" />
+  <project path="hardware/nvidia/light" remote="github" name="LineageOS/android_hardware_nvidia_light" revision="lineage-21.0" />
+  <project path="hardware/nvidia/platform/t210/nx" remote="github" name="LineageOS/android_hardware_nvidia_platform_t210_nx" revision="lineage-21" />
+  <project path="hardware/nvidia/power" remote="github" name="LineageOS/android_hardware_nvidia_power" revision="lineage-21.0" />
+  <project path="hardware/nvidia/thermal" remote="github" name="LineageOS/android_hardware_nvidia_thermal" revision="lineage-21.0" />
+  <project path="hardware/nvidia/platform/tegra/common" remote="github" name="LineageOS/android_hardware_nvidia_platform_tegra_common" revision="lineage-21" />
+  <project path="hardware/nvidia/platform/t210/common" remote="github" name="LineageOS/android_hardware_nvidia_platform_t210_common" revision="lineage-21" />
+  <project path="hardware/nvidia/soc/t210" remote="github" name="LineageOS/android_hardware_nvidia_soc_t210" revision="lineage-21" />
+  <project path="hardware/nvidia/soc/tegra" remote="github" name="LineageOS/android_hardware_nvidia_soc_tegra" revision="lineage-21" />
+  <project path="kernel/nvidia/cypress-fmac-upstream" remote="github" name="LineageOS/android_kernel_nvidia_cypress-fmac-upstream" revision="lineage-21" />
+  <project path="kernel/nvidia/exfat" remote="github" name="LineageOS/android_kernel_nvidia_exfat" revision="lineage-21" />
+  <project path="kernel/nvidia/kernel-4.9-nx" remote="github" name="LineageOS/android_kernel_nvidia_kernel-nx" revision="lineage-21" />
+  <project path="kernel/nvidia/nvidia-nx" remote="github" name="LineageOS/android_kernel_nvidia_nvidia-nx" revision="lineage-21" />
+  <project path="kernel/nvidia/nvgpu" remote="github" name="LineageOS/android_kernel_nvidia_nvgpu" revision="lineage-21" />
+  <project path="kernel/nvidia/wireguard" remote="github" name="LineageOS/android_kernel_nvidia_wireguard" revision="lineage-21" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-9.3" remote="github" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-9.3" revision="lineage-21.0" />
+  <project path="vendor/nintendo/nx" remote="github" name="TheMuppets/proprietary_vendor_nintendo_nx" revision="lineage-21" />
+  <project path="vendor/nvidia/t210" remote="github" name="TheMuppets/proprietary_vendor_nvidia_t210" revision="lineage-21" />
+  <project path="vendor/nvidia/common" remote="github" name="TheMuppets/proprietary_vendor_nvidia_common" revision="lineage-21" />
 </manifest>
